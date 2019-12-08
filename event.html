@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bühler Skiday 2020</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="event.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="burgerMenu.js"></script>
+    <script src="floatingButton.js"></script>
+</head>
+
+<body>
+    <header>
+        <div class="mobile-background">
+            <div>
+                <a href="index.html" class="neutral-link mobile-link">HOME</a>
+            </div>
+            <div>
+                <a href="event.html" class="neutral-link mobile-link">SCHNEETAG</a>
+            </div>
+            <div>
+                <a href="https://forms.office.com/Pages/ResponsePage.aspx?id=M8Rk7OgevU2Dejn1bHzc6l6me5qhkSNElGtjQi4cKTZUMlFYNDhUOVE2MVVLV1dYNE85TFJaMENWVC4u"
+                    class="neutral-link mobile-link">ANMELDEN</a>
+            </div>
+        </div>
+        <div class="container">
+            <nav>
+                <h1><img class="brand" src="images/logo.png" alt="Bühler Skiday 2020"></h1>
+                <ul id="menu">
+                    <li><a class="menu-link" href="index.html">Home</a></li>
+                    <li><a class="menu-link" href="event.html">Schneetag</a></li>
+                    <li><a class="menu-link" href="https://forms.office.com/Pages/ResponsePage.aspx?id=M8Rk7OgevU2Dejn1bHzc6l6me5qhkSNElGtjQi4cKTZUMlFYNDhUOVE2MVVLV1dYNE85TFJaMENWVC4u">Anmelden</a></li>
+                </ul>
+                <div id="burger-menu" onclick="toggleMenu()">
+                    <div class="bar"></div>
+                    <div class="bar"></div>
+                    <div class="bar"></div>
+                </div>
+                <a class="icon" id="menu-close" onclick="toggleMenu()">
+                    <i class="fa fa-times fa-2x" aria-hidden="true"></i>
+                </a>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section>
+            <div class="container">
+                <h2 class="title">Willkommen zum Bühler Schneetag</h2>
+                <p class="description">The Skiday is an occasion with tradition. Togetherness, joie de vivre, health,
+                    emotions, competition, relaxation, the event has many facets. We don't know what experience you're
+                    looking for. But we want you to be able to enjoy the Bühler Skiday. Here you will find all important
+                    information about the Bühler Ski Day
+                </p>
+            </div>
+        </section>
+
+        <section id="wide-category-section">
+            <div class="container">
+                <ul class="alternative-category-list">
+                    <li class="alternative-category-element">
+                        <div class="alternative-category-item-text">
+                            <a href="https://www.gruesch-danusa.ch/" class="event-link">
+                                <h3 class="alternative-category-item-heading">Skigebiet</h3>
+                                <p>For the whole day the awesome <strong>Exampleskigebiet</strong> will be our play
+                                    ground.
+                                    The
+                                    ski area
+                                    offers
+                                    opportunities for all kind of activities and is thus the perfect location for the
+                                    <strong>skiing day</strong>.
+                                </p>
+                            </a>
+                        </div>
+                        <div class="alternative-category-image location">
+                        </div>
+                    </li>
+                    <li class="horizontal-divider1"></li>
+
+                    <li class="alternative-category-element">
+                        <div class="alternative-category-item-text">
+                            <a href="pdf/program.pdf" class="event-link">
+                                <h3 class="alternative-category-item-heading">Programm</h3>
+                                <p>For the whole day the awesome Exampleskigebiet will be our <strong>play
+                                        ground</strong>.
+                                    The
+                                    ski area
+                                    offers
+                                    <strong>opportunities</strong> for all kind of activities and is thus the perfect
+                                    location
+                                    for the
+                                    skiing
+                                    day.
+                                </p>
+                            </a>
+                        </div>
+                        <div class="alternative-category-image trip">
+                        </div>
+                    </li>
+
+                </ul>
+            </div>
+        </section>
+
+        <section id="mobile-category-section">
+            <div class="container">
+                <ul class="category-list">
+                    <li class="category-element">
+                        <div class="category-item-image location">
+                        </div>
+                        <div class="category-item-text">
+                            <a href="https://www.gruesch-danusa.ch/" class="event-link">
+                                <h3 class="category-item-heading">Skigebiet</h3>
+                                <p>For the <strong>whole day</strong> the awesome Exampleskigebiet will be our play
+                                    ground.
+                                    The
+                                    ski area
+                                    offers
+                                    opportunities for <strong>all kind of activities</strong> and is thus the
+                                    perfect
+                                    location
+                                    for the
+                                    skiing
+                                    day.
+                                </p>
+                            </a>
+                        </div>
+                    </li>
+                    <li class="category-element">
+                        <div class="category-item-image trip">
+                        </div>
+                        <div class="category-item-text">
+                            <a href="pdf/program.pdf" class="event-link">
+                                <h3 class="category-item-heading">Porgramm</h3>
+                                <p>For the whole day the <strong>awesome Exampleskigebiet</strong> will be our play
+                                    ground.
+                                    The
+                                    ski area
+                                    offers
+                                    <strong>opportunities</strong> for all kind of activities and is thus the perfect
+                                    location
+                                    for the
+                                    skiing
+                                    day.
+                                </p>
+                            </a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <div class="vertical-divider">
+        </div>
+        <div class="container">
+            <ul class="category-list">
+                <li class="category-element">
+                    <div class="category-item-image sports">
+                    </div>
+                    <a href="pdf/competition.pdf" class="event-link">
+                        <div class="category-item-text">
+                            <h3 class="category-item-heading">Wettkämpfe</h3>
+                            <p>For the <strong>whole day</strong> the awesome Exampleskigebiet will be our play
+                                ground.
+                                The
+                                ski area
+                                offers
+                                opportunities for <strong>all kind of activities</strong> and is thus the perfect
+                                location
+                                for the
+                                skiing
+                                day.
+                            </p>
+                        </div>
+                    </a>
+                </li>
+                <li class="horizontal-divider2">
+                </li>
+                <li class="category-element">
+                    <div class="category-item-image social">
+                    </div>
+                    <a href="activities.html" class="event-link">
+                        <div class="category-item-text">
+                            <h3 class="category-item-heading">Aktivitäten</h3>
+                            <p>For the whole day the <strong>awesome Exampleskigebiet</strong> will be our play
+                                ground.
+                                The
+                                ski area
+                                offers
+                                <strong>opportunities</strong> for all kind of activities and is thus the perfect
+                                location
+                                for the
+                                skiing
+                                day.
+                            </p>
+                        </div>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </main>
+    <aside>
+        <div class="floating" id="floating">
+            <a class="floating-button" href="https://forms.office.com/Pages/ResponsePage.aspx?id=M8Rk7OgevU2Dejn1bHzc6l6me5qhkSNElGtjQi4cKTZUMlFYNDhUOVE2MVVLV1dYNE85TFJaMENWVC4u">
+                <div class="floating-text">
+                    <span class="floating-text-number">15</span><br><span class="floating-text-message">Februar
+                        anmelden</span>
+                </div>
+            </a>
+        </div>
+    </aside>
+    <footer>
+        <section>
+            <div class="footer">
+                <div class="footer-content">
+                    <div class="footer-element">
+                        <h2 class="footer-header">Visit</h2>
+                        <p>
+                            <a class="neutral-link"
+                                href="https://www.google.com/maps/place/Gupfenstrasse+5,+9240+Uzwil,+Schweiz/@47.4397272,9.1384206,17z/data=!3m1!4b1!4m5!3m4!1s0x479ae88794a520c9:0xdcfb0f95cf04218b!8m2!3d47.4397272!4d9.1406093">Bühler
+                                AG, Gupfenstrasse 5, 9240 Uzwil</a>
+                        </p>
+                    </div>
+                    <div class="footer-element">
+                        <h2 class="footer-header">Follow</h2>
+                        <p>
+                            <a class="neutral-link" href="https://www.facebook.com/buhlergroup/">Facebook, </a>
+                            <a class="neutral-link" href="https://twitter.com/buhler_group">Twitter, </a>
+                            <a class="neutral-link" href="https://www.youtube.com/user/BuhlerGroup">Youtube</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </footer>
+</body>
+
+</html>
