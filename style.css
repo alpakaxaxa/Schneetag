@@ -197,11 +197,11 @@ strong {
 }
 
 .trip {
-    background-image: url("images/trip.png"); /* The image used */
+    background-image: url("images/trip.jpg"); /* The image used */
 }
 
 .location {
-    background-image: url("images/location.png"); /* The image used */
+    background-image: url("images/location.jpg"); /* The image used */
 }
 
 .category-list {
@@ -250,11 +250,11 @@ strong {
 
 
 .sports {
-    background-image: url("images/sports.png"); 
+    background-image: url("images/sports.jpg"); 
     background-position:40% 50%;
 }
 .social {
-    background-image: url("images/social.png");
+    background-image: url("images/social.jpg");
     background-position:70% 30%;
 }
 
