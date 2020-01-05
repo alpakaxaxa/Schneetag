@@ -399,8 +399,6 @@ section{
 .brand{
     min-width:100px;
     max-width:170px;
-    transform: translateX(-100rem);
-    animation: slideIn 0.8s forwards;
 }
 nav{
     padding-top: 2rem;
